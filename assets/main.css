@@ -364,7 +364,7 @@ button.magazine-btn {
 /* Parallax */
 
 .parallax-scroll {
-    background-image: url('/assets/images/parallax-image.jpg');
+    background-image: url('assets/images/parallax-image.jpg');
     height: 300px;
     background-attachment: fixed;
     background-position: center;
