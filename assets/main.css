@@ -145,7 +145,7 @@ h4#best-place-heading {
     letter-spacing: 1.3px;
 }
 
-h1#coffee-mugs-heading {
+h1.coffee-mugs-heading {
     font-size: 50px;
     letter-spacing: 1.3px;
 }
@@ -343,7 +343,7 @@ h2#coffee-mag-heading {
     margin-bottom: -10px;
 }
 
-p#magazine-paragraph {
+p.magazine-paragraph {
     max-width: 50%;
     color: grey;
     font-size: 14px;
@@ -448,7 +448,7 @@ h2#newsletter-h2 {
     font-weight: 300;
 }
 
-input#newsletter-input {
+input.newsletter-input {
     background: none;
     padding: 20px;
     border: 1px solid #2f303e;
@@ -539,6 +539,7 @@ h4.contact-heading {
 
     .magazine-grid {
         padding: 50px;
+        margin-top: -80px;
     }
 }
 
@@ -622,6 +623,9 @@ h4.contact-heading {
         max-width: 90%;
         margin-bottom: 40px;
     }
+    .stories {
+        margin-bottom: -100px;
+    }
 }
 
 @media screen and (max-width:740px){
@@ -655,5 +659,49 @@ h4.contact-heading {
     }
     h5.footer-copyright {
         top:0;
+    }
+}
+
+@media screen and (max-width:488px){
+    /* magazine */
+    .magazine-left img {
+        width: 100%;
+    }
+    .magazine-grid {
+        margin-top: -60px!important;
+    }
+}
+
+@media screen and (max-width:470px){
+    /* magazine */
+    p.magazine-paragraph {
+        max-width: 90%;
+    }
+    /* newsletter */
+
+    button.form-btn {
+        margin: 20px auto auto auto;
+    }
+    .newsletter {
+        height: 350px;
+    }
+    input.newsletter-input {
+        max-width: 80%!important;
+    }
+}
+    
+@media screen and (max-width:376px){
+    .index-top-hero {
+        height: 550px
+    }
+    .coffee-mugs-heading {
+        font-size: 30px!important;
+    }
+}
+
+@media screen and (max-width:350px){
+    h3.shop-headings {
+        max-width: 80%;
+        margin: 0 auto;
     }
 }
